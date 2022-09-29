@@ -39,13 +39,12 @@ body {
 
 /* Site nav */
 .site-nav-link {
-    list-style-type: none;
+    text-decoration: none;
     color: var(--primary-text-color);;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.02em;
-    text-decoration: none;}
+    letter-spacing: 0.02em;}
 .site-nav-link:hover, 
 .site-nav-link:focus {
     color: var(--accent-color);}
@@ -67,7 +66,6 @@ body {
 .hero-title {
     color: var(--white-color);
     background-color: var(--section-color);
-    
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -87,7 +85,6 @@ body {
 
 
 .feature-text {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -111,7 +108,6 @@ font-weight: 700;
 }
 
 .team-position {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
@@ -130,12 +126,10 @@ font-weight: 700;
 .title-text {
     text-decoration: none;
     color: var(--grey-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
 }
-
 
 /* Button */
 .button.primary {
@@ -147,7 +141,7 @@ font-weight: 700;
     line-height: 1.88;
     align-items: center;
     text-align: center;
-    letter-spacing: 0.06em;;
+    letter-spacing: 0.06em;
 }
 .button {
     color: var(--primary-text-color);
