@@ -125,8 +125,11 @@ body {
 }
 
 /* Portfolio */
-.title-name {
+.title-link {
   text-decoration: none;
+}
+
+.title-name {
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 18px;
