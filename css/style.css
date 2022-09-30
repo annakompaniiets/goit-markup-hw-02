@@ -1,9 +1,11 @@
+/** @format */
+
 :root {
-    --primary-text-color: #212121;
-    --grey-color: #757575;
-    --white-color: #FFFFFF;
-    --accent-color: #2196F3;
-    --section-color: #2F303A;
+  --primary-text-color: #212121;
+  --grey-color: #757575;
+  --white-color: #ffffff;
+  --accent-color: #2196f3;
+  --section-color: #2f303a;
 }
 
 /* основной цвет #212121 */
@@ -19,169 +21,179 @@ body {
 }
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 /* LOGO */
 .logo {
-    color: var(--accent-color);
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    text-decoration: none;}
+  color: var(--accent-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
 .logo-header {
-   color: var(--primary-text-color);} 
+  color: var(--primary-text-color);
+}
 .logo-title {
-    color: var(--white-color);}
-
+  color: var(--white-color);
+}
 
 /* Site nav */
 .site-nav-link {
-    text-decoration: none;
-    color: var(--primary-text-color);;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;}
-.site-nav-link:hover, 
+  text-decoration: none;
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav-link:hover,
 .site-nav-link:focus {
-    color: var(--accent-color);}
-
-.site-contact {
-    color: var(--grey-color)
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    text-decoration: none;}
-.site-contact:hover,
-.site-contact:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
+.site-contact {
+  color: var(--grey-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.site-contact:hover,
+.site-contact:focus {
+  color: var(--accent-color);
+}
 
 /* Hero */
+.hero {
+  background-color: var(--section-color);
+}
+
 .hero-title {
-    color: var(--white-color);
-    background-color: var(--section-color);
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;}
+  color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
 
 /* Features */
 .feature-title {
-    color: var(--primary-text-color);
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.14;
-        text-transform: uppercase;
-        letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 
-
 .feature-text {
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    }
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
 
 /* TEAM */
 .title {
-color: var(--primary-text-color);
-font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .team-name {
-    color: var(--primary-text-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
-    letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .team-position {
-    font-size: 16px;
-    line-height: 1.18;
-    letter-spacing: 0.03em;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* Portfolio */
 .title-name {
-    text-decoration: none;
-    color: var(--primary-text-color);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
+  text-decoration: none;
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .title-text {
-    text-decoration: none;
-    color: var(--grey-color);
-    font-size: 16px;
-    line-height: 1.18;
-    letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--grey-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 
 /* Button */
-.button.primary {
-    color: #FFFFFF;
-    background-color: #2196F3;
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-}
 .button {
-    color: var(--primary-text-color);
-    background-color: #F5F4FA;
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-    letter-spacing: 0.03em;
-    cursor: pointer;
+  color: #ffffff;
+  background-color: #2196f3;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.button-two {
+  color: var(--primary-text-color);
+  background-color: #f5f4fa;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
 }
 
-.button:hover,
-.button:focus {
-        color: var(--white-color);
-        background-color: var(--accent-color);
+.button-two:hover,
+.button-two:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
 }
 
 /* Курсор */
 .pointer {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .footer {
-    background-color: var(--section-color);
+  background-color: var(--section-color);
 }
 
 .address {
-    text-decoration: none;
-    color: rgba(255, 255, 255);
-    font-style: normal;
-    letter-spacing: 0.03em;
-    font-size: 14px;
+  text-decoration: none;
+  color: rgba(255, 255, 255);
+  font-style: normal;
+  letter-spacing: 0.03em;
+  font-size: 14px;
 }
 
 .address-contact {
-    text-decoration: none;
-        color: rgba(255, 255, 255, 0.6);
-        font-style: normal;
-        letter-spacing: 0.03em;
-        font-size: 14px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  letter-spacing: 0.03em;
+  font-size: 14px;
 }
